@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*----Main----*/
+
+header {
+	float: none;
+	margin-top: 0;
+}
+
+.main {
+	background: url('../images/hero_photo_copy.jpg') no-repeat center / cover;
+	background-position: right top;
+}
+
+.main h1 {
+	font-family: Baskerville, sans-serif;
+	font-size: 90px;
+	color: #000;
+	text-align: center;
+	padding-top: 180px;
+	padding-bottom: 300px;
+}
+
+/*----Navigation----*/
+
+#navigation {
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #E3E3E3;
+}
+
+.main li {
+	display: inline-block;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.main ul {
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+
+
+/*----Supporting----*/
+
+.supporting img {
+	width: 270px;
+	height: 270px;
+	border-radius: 100%;
+}
+
+.wares {
+	display: inline-block;
+	padding: 100px 20px 0 50px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.wares h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.wares p {
+	font-family: 'Raleway';
+	padding-bottom: 100px;
+	font-size: 14px;
+}
+
+/*----Footer----*/
+
+.footer {
+	display: inline-block;
+	text-align: right;
+	background-color: #555;
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.footer p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400px;
+	font-size: 12px;
+	display: inline;
+	float: left;
+}
+
+.social-icon {
+  	width: 35px;
+  	height: 35px;
+  	margin: 0 3px;
+}
+
+
+
+
